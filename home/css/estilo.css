@@ -1,0 +1,186 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background: #16468F;
+  background-size: cover;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed; 
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 15px;
+  padding: 30px 30px;
+  border-radius: 5px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #171313;
+}
+
+
+nav a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+#acceder {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+#acceder a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #0074b8;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#acceder a:hover {
+  background-color: #005b97;
+}
+
+
+section {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#mision, #vision {
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#historia, #ubicacion
+{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#historia img, #ubicacion img{
+  max-width: 45%;
+  margin: 50px 50px;
+}
+
+#mision img,
+#vision img {
+  max-width: 45%;
+  margin: 50px 50px;
+}
+
+#excelencia
+{
+   flex-wrap: wrap;
+  justify-content: space-between;
+}
+#excelencia img{
+  margin: 50px 50px;
+  max-width: 45%;
+}
+
+#huerto{
+display: flex;
+width: 1485px;
+height: 430px;
+
+}
+#huerto img{
+  width: 100px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+  margin: 50px 50px;
+  max-width: 45%;
+}
+#huerto img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+#huerto
+{
+ justify-content: space-between;
+  flex-wrap: wrap;
+}
+#huerto img{
+  margin: 50px 50px;
+  max-width: 45%;
+}
+
+#descripción, #mision, #excelencia, #historia, #huerto {
+  background-color: #AEC0D4;
+  border: 5px solid #FFF969;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Noto Sans', helvetica, serif;
+}
+
+#Contactos, #au, footer {
+  background-color: #16468F;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#Contactos {
+  text-align: left;
+}
+
+#Contactos a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#au {
+  text-align: left;
+}
+
+#au p {
+  font-weight: bold;
+}
+ 
+
